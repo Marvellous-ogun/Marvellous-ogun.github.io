@@ -1,0 +1,58 @@
+/* Define background color for structural elements */
+header, footer, section, nav, main {
+    background-color: #e0f7fa; /* Light cyan background */
+}
+
+/* Define font styles for headings and paragraphs */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
+    color: #00796b; /* Dark teal color */
+}
+
+p {
+    font-family: 'Verdana', sans-serif;
+    color: #004d40; /* Darker teal color */
+}
+
+/* Define pseudo-styles for links */
+a:link {
+    color: #0288d1; /* Light blue */
+    text-decoration: none;
+}
+
+a:visited {
+    color: #5c6bc0; /* Blue-grey */
+}
+
+a:hover {
+    color: #ff7043; /* Light orange */
+    text-decoration: underline;
+}
+
+/* Classes for color and background-color */
+.color-primary {
+    color: #0288d1; /* Light blue color */
+}
+
+.bg-primary {
+    background-color: #ffecb3; /* Light yellow background */
+}
+
+/* Apply these classes to structural elements */
+.header {
+    background-color: #00796b; /* Dark teal background */
+    color: white;
+    padding: 15px;
+}
+
+.footer {
+    background-color: #00796b; /* Dark teal background */
+    color: white;
+    padding: 15px;
+}
+
+.nav {
+    background-color: #ffecb3; /* Light yellow background */
+    padding: 15px;
+}
