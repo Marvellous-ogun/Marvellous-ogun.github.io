@@ -56,3 +56,14 @@ a:hover {
     background-color: #e6e6e6; /* Light grey background */
     padding: 15px;
 }
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .image-gallery img {
+    width: 250px;
+    height: auto;
+  }
+  
