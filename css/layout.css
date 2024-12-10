@@ -1,0 +1,76 @@
+/* layout.css */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .aside {
+    float: right;
+    width: 20%;
+    padding: 10px;
+    background-color: #f4f4f4;
+    position: sticky;
+    top: 0;
+  }
+  
+  .main-content {
+    float: left;
+    width: 80%;
+    padding: 10px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    clear: both;
+  }
+  
+  .section img {
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+  }
+  
+  footer {
+    clear: both;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
