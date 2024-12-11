@@ -11,7 +11,7 @@
   }
   
   .header {
-    background: #333;
+    background: #e4dfdf;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -28,7 +28,7 @@
   }
   
   .nav ul li a {
-    color: #fff;
+    color: #070707;
     text-decoration: none;
   }
   
