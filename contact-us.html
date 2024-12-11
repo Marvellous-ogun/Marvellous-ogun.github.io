@@ -5,50 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/layout.css">
 </head>
 <body>
-    <header>
+    <header class="header">
+        <img src="images/logos.jpg" alt="Logo" class="logo">
         <nav class="nav">
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="contact-us.html">Contact Us</a></li>
-              <li><a href="#">About Us</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
             </ul>
         </nav>
-        <img src="images/logos.jpg" alt="Logo" class="logo">
     </header>
-    <div class="contact-form">
-        <form name="contactForm" method="post" action="success.html">
-            <fieldset>
-                <legend>Contact Us</legend>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+    <main class="main-content">
+        <section class="content">
+            <h1>Contact Us</h1>
+            <div class="contact-form">
+                <form name="contactForm" method="post" action="success.html">
+                    <fieldset>
+                        <legend>Contact Us</legend>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
 
-                <label>Preferred Contact Method:</label>
-                <input type="radio" id="email" name="contactMethod" value="email">
-                <label for="email">Email</label>
-                <input type="radio" id="phone" name="contactMethod" value="phone">
-                <label for="phone">Phone</label>
+                        <label>Preferred Contact Method:</label>
+                        <input type="radio" id="email" name="contactMethod" value="email">
+                        <label for="email">Email</label>
+                        <input type="radio" id="phone" name="contactMethod" value="phone">
+                        <label for="phone">Phone</label>
 
-                <label for="newsletter">Subscribe to our newsletter:</label>
-                <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Subscribe to our newsletter:</label>
+                        <input type="checkbox" id="newsletter" name="newsletter">
 
-                <label for="inquiry">Type of Inquiry:</label>
-                <select id="inquiry" name="inquiry">
-                    <option value="general">General</option>
-                    <option value="support">Support</option>
-                    <option value="feedback">Feedback</option>
-                </select>
-                <button type="submit">Submit</button>
-                <button type="reset">Reset</button>
-            </fieldset>
-        </form>
-    </div>
-    <footer>
-        <p> Ogundare Marvellous. Thanks </p>
+                        <label for="inquiry">Type of Inquiry:</label>
+                        <select id="inquiry" name="inquiry">
+                            <option value="general">General</option>
+                            <option value="support">Support</option>
+                            <option value="feedback">Feedback</option>
+                        </select>
+
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <aside class="aside">
+            <h2>Content List</h2>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </aside>
+        <div class="clearfix"></div>
+    </main>
+    <footer class="footer">
+        <p>&copy; Marvellous, Thanks</p>
     </footer>
 </body>
 </html>

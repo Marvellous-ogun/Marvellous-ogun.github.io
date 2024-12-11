@@ -6,7 +6,6 @@
   <title>My Journey in Web Development</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/layout.css">
-
   <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
@@ -27,22 +26,24 @@
 </head>
 <body>
   <header class="header">
+    <img src="images/logos.jpg" alt="Logo" class="logo">
     <nav class="nav">
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="contact-us.html">Contact Us</a></li>
         <li><a href="#">About Us</a></li>
       </ul>
     </nav>
     <h1>Welcome to My Web Development Journey</h1>
-    <img src="images/logos.jpg" alt="Logo" class="logo">
   </header>
-  <main>
-    <aside class="aside"></aside>
+  <main class="main-content">
+    <nav>
+      <ul>
         <li><a href="#about-me">About Me</a></li>
         <li><a href="#my-avatar">My Avatar</a></li>
         <li><a href="#web-development">Web Development</a></li>
-    </aside>
+      </ul>
+    </nav>
     <section id="about-me">
       <h2>About Me</h2>
       <figure>
@@ -119,6 +120,15 @@
         </tbody>
       </table>
     </section>
+    <aside class="aside">
+      <h2>Content List</h2>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </aside>
+    <div class="clearfix"></div>
   </main>
   <footer class="footer">
     <nav class="nav">
@@ -128,7 +138,7 @@
         <li><a href="https://en.wikipedia.org/wiki/Orion">Source</a></li>
       </ul>
     </nav>
-    <p> Ogundare Marvellous. Thanks.</p>
+    <p>Ogundare Marvellous. Thanks.</p>
   </footer>
 </body>
 </html>
